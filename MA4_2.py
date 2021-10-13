@@ -83,9 +83,9 @@ def fib47():
     start = pc()
     y = fib_c(47)
     print(f"C++ takes  : {pc() - start} sec")
-    print(f"To realize the 47th fibonacci number is {x}, {y}")
+    print(f"To realize the 47th fibonacci number is {x} (Numba), {y} (C++)")
 
 if __name__ == '__main__':
-    #main()
-    #plotmaster_6000()
+    main()
+    plotmaster_6000()
     fib47()

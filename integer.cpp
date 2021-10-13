@@ -25,7 +25,7 @@ int Integer::fib(){
     }
 
 int Integer::fib_helper(int n){
-    if ( n <= 1 ) { return 1; }
+    if ( n <= 1 ) { return n; }
     return fib_helper(n-1) + fib_helper(n-2);
     }
  
