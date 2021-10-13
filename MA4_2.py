@@ -81,9 +81,9 @@ def fib47():
     x = fib_numba(47)
     print(f"Numba takes: {pc() - start} sec")
     start = pc()
-    fib_c(47)
+    y = fib_c(47)
     print(f"C++ takes  : {pc() - start} sec")
-    print(f"To realize the 47th fibonacci number is {x}")
+    print(f"To realize the 47th fibonacci number is {x}, {y}")
 
 if __name__ == '__main__':
     #main()
