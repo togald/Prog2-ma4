@@ -127,6 +127,14 @@ def main_1_2():
         print(f"Exact volume       : {mchs.anvol()}")
 
 def main_1_3():
+    start = pc()
+    mchs = MCHS(100000, 11)
+    stop = pc()
+    print("--- Single-thread execution ---")
+    print(f"Hypersphere in {mchs.dim} dimensions, n = {mchs.num}")
+    print(f"Approximated volume: {mchs.mcvol()}")
+    print(f"Exact volume       : {mchs.anvol()}")
+    print(f"Execution time     : {stop-start} seconds")
     
 
 if __name__ == '__main__':
