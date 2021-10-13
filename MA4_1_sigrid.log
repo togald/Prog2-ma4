@@ -1,0 +1,71 @@
+Hello world!
+MA4 1.1: First, let's do some pi-approximations!
+-----
+Points generated: 1000
+Points in circle: 793
+Pi approximation: 3.172
+Execution time  : 0.002 seconds
+-----
+Points generated: 10000
+Points in circle: 7832
+Pi approximation: 3.1328
+Execution time  : 0.017 seconds
+-----
+Points generated: 100000
+Points in circle: 78410
+Pi approximation: 3.1364
+Execution time  : 0.143 seconds
+-----
+Points generated: 1000000
+Points in circle: 785538
+Pi approximation: 3.142152
+Execution time  : 1.663 seconds
+
+MA4 1.2: Now, some hyperspheres! This is where math goes weird.
+Hypersphere in 2 dimensions, n = 100000
+Approximated volume: 3.14628
+Exact volume       : 3.141592653589793
+Hypersphere in 11 dimensions, n = 100000
+Approximated volume: 1.88416
+Exact volume       : 1.8841038793898994
+
+MA4 1.3: Time for parallel programming, useful on hyperspheres!
+--- Single-thread execution ---
+Hypersphere in 11 dimensions, n = 10000000
+Approximated volume: 1.8671616
+Exact volume       : 1.8841038793898994
+Execution time     : 88.25286898802733 seconds
+
+--- 10-thread execution ---
+Hypersphere in 11 dimensions, n = 10000000
+Approximated volume: 1.8704383999999998
+Exact volume       : 1.8841038793898994
+Execution time     : 29.84732654999243 seconds
+
+--- How many threads are sensible, really? ---
+This system runs on 8 processor cores. Are more threads than cores beneficial?
+Hypersphere in 11 dimensions, n = 10000000
+Threads  : 1
+Exec time: 89.766257071984
+Threads  : 2
+Exec time: 51.348936191003304
+Threads  : 3
+Exec time: 38.246107870014384
+Threads  : 4
+Exec time: 31.046640043030493
+Threads  : 5
+Exec time: 29.269370167981833
+Threads  : 6
+Exec time: 27.33646994701121
+Threads  : 7
+Exec time: 26.095110505004413
+Threads  : 8
+Exec time: 26.4124199639773
+Threads  : 9
+Exec time: 33.753368642996065
+Threads  : 10
+Exec time: 31.050431210023817
+Threads  : 11
+Exec time: 27.231720823037904
+Threads  : 12
+Exec time: 26.97803372796625
