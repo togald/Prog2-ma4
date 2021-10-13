@@ -1,0 +1,95 @@
+Hello world!
+MA4 1.1: First, let's do some pi-approximations!
+-----
+Points generated: 1000
+Points in circle: 801
+Pi approximation: 3.204
+Execution time  : 0.002 seconds
+-----
+Points generated: 10000
+Points in circle: 7835
+Pi approximation: 3.134
+Execution time  : 0.02 seconds
+-----
+Points generated: 100000
+Points in circle: 78445
+Pi approximation: 3.1378
+Execution time  : 0.223 seconds
+-----
+Points generated: 1000000
+Points in circle: 785866
+Pi approximation: 3.143464
+Execution time  : 1.939 seconds
+
+MA4 1.2: Now, some hyperspheres! This is where math goes weird.
+Hypersphere in 2 dimensions, n = 100000
+Approximated volume: 3.13448
+Exact volume       : 3.141592653589793
+Hypersphere in 11 dimensions, n = 100000
+Approximated volume: 1.7408
+Exact volume       : 1.8841038793898994
+
+MA4 1.3: Time for parallel programming, useful on hyperspheres!
+--- Single-thread execution ---
+Hypersphere in 11 dimensions, n = 10000000
+Approximated volume: 1.8999296
+Exact volume       : 1.8841038793898994
+Execution time     : 116.68975878099445 seconds
+
+--- 10-thread execution ---
+Hypersphere in 11 dimensions, n = 10000000
+Approximated volume: 1.9009535999999998
+Exact volume       : 1.8841038793898994
+Execution time     : 41.36374506400898 seconds
+
+--- How many threads are sensible, really? ---
+This system runs on 16 processor cores. Are more threads than cores beneficial?
+Hypersphere in 11 dimensions, n = 10000000
+Threads  : 1
+Exec time: 126.70083009207156
+Threads  : 2
+Exec time: 63.010872729937546
+Threads  : 3
+Exec time: 59.29701674997341
+Threads  : 4
+Exec time: 43.860243942937814
+Threads  : 5
+Exec time: 32.907045439002104
+Threads  : 6
+Exec time: 37.95122270099819
+Threads  : 7
+Exec time: 56.263120622956194
+Threads  : 8
+Exec time: 49.37310730898753
+Threads  : 9
+Exec time: 45.06556056498084
+Threads  : 10
+Exec time: 49.053069778950885
+Threads  : 11
+Exec time: 45.18328176392242
+Threads  : 12
+Exec time: 40.32004241400864
+Threads  : 13
+Exec time: 41.957449276931584
+Threads  : 14
+Exec time: 48.83450873603579
+Threads  : 15
+Exec time: 49.96315532294102
+Threads  : 16
+Exec time: 48.47100986307487
+Threads  : 17
+Exec time: 50.5083156300243
+Threads  : 18
+Exec time: 36.45445774204563
+Threads  : 19
+Exec time: 43.80793626396917
+Threads  : 20
+Exec time: 37.25401218805928
+Threads  : 21
+Exec time: 34.98894240206573
+Threads  : 22
+Exec time: 36.42963550495915
+Threads  : 23
+Exec time: 36.88593852496706
+Threads  : 24
+Exec time: 43.43302064796444
