@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+""" MA4_1.py
+
+Student:        Togald Nilsson
+Mail:           togald.nilsson.1357@student.uu.se
+Reviewed by:    Kellen Smith
+Date reviewed:  2021-10-13
+"""
+
 import random
 import math
 import matplotlib.pyplot as plt
@@ -48,7 +56,6 @@ def main_1_1():
               , 100000
               , 1000000
               ]
-    plots = []
     for n in numbers:
         starttime = timeit.default_timer()
         mcc = MCC(n)

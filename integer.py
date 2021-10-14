@@ -1,3 +1,11 @@
+""" Integer.py
+
+Student:        Togald Nilsson
+Mail:           togald.nilsson.1357@student.uu.se
+Reviewed by:    Kellen Smith
+Date reviewed:  2021-10-13
+"""
+
 """ Python interface to the C++ Integer class """
 import ctypes
 lib = ctypes.cdll.LoadLibrary('./libinteger.so')

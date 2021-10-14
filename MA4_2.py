@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+""" MA4_2.py
+
+Student:        Togald Nilsson
+Mail:           togald.nilsson.1357@student.uu.se
+Reviewed by:    Kellen Smith
+Date reviewed:  2021-10-13
+"""
+
 from integer import Integer
 from numba import njit
 from time import perf_counter as pc

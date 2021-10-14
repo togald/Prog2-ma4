@@ -1,6 +1,13 @@
 #include <cstdlib>
 // Integer class 
 
+/*
+ * Student:        Togald Nilsson
+ * Mail:           togald.nilsson.1357@student.uu.se
+ * Reviewed by:    Kieran Barber
+ * Date reviewed:  2021-10-14
+ */
+
 class Integer{
 	public:
 		Integer(int);
