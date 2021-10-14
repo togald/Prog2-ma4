@@ -5,7 +5,7 @@
 Student:        Togald Nilsson
 Mail:           togald.nilsson.1357@student.uu.se
 Reviewed by:    Kellen Smith
-Date reviewed:  2021-10-13
+Date reviewed:  2021-10-14
 """
 
 import random
